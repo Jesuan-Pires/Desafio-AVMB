@@ -1,21 +1,39 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="utf-8">
     <title>Fron-end</title>
-
     <script src="scripts/task1.js"></script>
+    <script src="scripts/task2.js"></script>
 </head>
+
 <body>
 
     <h3>Task #1 - Pares e ímpares:</h3>
     <p>Qual a quantidade de números a ser gerada?</p>
+
     <form>
-        <input type="number" id="n" name="n"><br><br>
+        <input type="number" id="n" name="n"> <br><br>
     </form>
-        <button onclick="gerarNumeros()">Enviar</button>
-        <p id="argumentos">Argumentos recebidos:</p>
-        <p id="contador">Quantidade de números impares: </p>
+
+    <button onclick="gerarNumeros()">Enviar </button>
+    <p id="argumentos">Argumentos recebidos:</p>
+    <p id="contador">Quantidade de números impares: </p>
+
+    -----------------------------------------------------------
+
+    <h3>Task #2 - Palíndromo:</h3>
+    <p>Qual a palavra a ser verificada?</p>
+
+    <form>
+        <input type="text" id="a" name="a"> <br><br>
+    </form>
+
+    <button onclick="palindromo()">Enviar </button>
+    <p id="palavra">Argumento recebido:</p>
+    <p id="retorno">Retorno: </p>
+
 </body>
 
 </html>
