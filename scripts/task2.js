@@ -1,3 +1,7 @@
+function boolToString(bool) {
+  return bool ? ' é um palindromo!' : ' não é um palindromo!'
+}
+
 function palindromo() {
   var ehPalindromo = true
   var a = ([] = document.getElementById('a').value)
@@ -19,7 +23,8 @@ function palindromo() {
   }
   console.log('Retorno: ' + ehPalindromo)
 
-  document.getElementById('palavra').innerHTML = 'Argumento recebido: ' + a
-
-  document.getElementById('retorno').innerHTML = 'Retorno: ' + ehPalindromo
+  document.getElementById(
+    'palavra',
+    'retorno'
+  ).innerHTML = `A palavra ${a}${boolToString(ehPalindromo)}`
 }
