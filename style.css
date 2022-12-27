@@ -1,0 +1,12 @@
+.personagem {
+    width: 300px;
+    border-bottom-style: solid;
+    border-top-left-radius: n16px;
+    border-top-right-radius: 16px;
+}
+
+.flex{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+}

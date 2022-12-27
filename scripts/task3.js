@@ -8,5 +8,5 @@ function parametros() {
 
   console.log(c_json)
 
-  document.getElementById('chaveValor').innerHTML = 'Retorno: ' + c_json
+  document.getElementById('chaveValor').innerHTML = `Retorno: ${c_json}`
 }

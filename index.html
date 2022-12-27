@@ -4,47 +4,44 @@
 <head>
     <meta charset="utf-8">
     <title>Fron-end</title>
-    <script src="scripts/task1.js"></script>
-    <script src="scripts/task2.js"></script>
-    <script src="scripts/task3.js"></script>
 </head>
 
 <body>
 
     <h3>Task #1 - Pares e ímpares:</h3>
+    <script src="scripts/task1.js"></script>
     <form>
         <p>Qual a quantidade de números a ser gerada?</p>
         <input type="number" id="n" name="n"> <br><br>
     </form>
-
     <button onclick="gerarNumeros()">Enviar </button>
     <p id="argumentos">Argumentos recebidos:</p>
     <p id="contador">Quantidade de números impares: </p>
 
-    -----------------------------------------------------------
-
     <h3>Task #2 - Palíndromo:</h3>
+    <script src="scripts/task2.js"></script>
     <p>Qual a palavra a ser verificada?</p>
     <form>
         <input type="text" id="a" name="a"> <br><br>
     </form>
-
     <button onclick="palindromo()">Enviar </button>
     <p id="palavra"></p>
     <p id="retorno"></p>
 
-    -----------------------------------------------------------
-
     <h3>Task #3 - Chaves e Valores:</h3>
+    <script src="scripts/task3.js"></script>
     <form>
-        <p>Qual a sua idade? </p>
-        <input type="text" id="c" name="c"> <br><br>
-        <input type="number" id="v" name="v"> <br><br>
+        <p>Chave: </p>
+        <input type="text" id="c" name="c"><br>
+        <p>Valor: </p>
+        <input type="number" id="v" name="v"><br><br>
     </form>
-
     <button onclick="parametros()">Enviar </button>
     <p id="chaveValor"></p>
 
+    <h3>Task #4 - Marvel API:</h3>
+    <a href="listaHerois.html">Clique aqui para acessar a lista de Herós da Marvel!</a>
+    
 </body>
 
 </html>

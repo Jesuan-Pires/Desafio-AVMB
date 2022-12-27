@@ -1,6 +1,6 @@
 function gerarNumeros() {
   var n = document.getElementById('n').value
-  console.log('N: ' + n)
+  console.log(n)
   var gerador = []
   var cont = 0
   for (var i = 0; i < n; i++) {
@@ -9,8 +9,8 @@ function gerarNumeros() {
       cont++
     }
   }
-  console.log('Argumentos: ' + gerador)
-  console.log('Quantidade de números impares: ' + cont)
+  console.log('N: [' + gerador + ']')
+  console.log('Retorno: ' + cont)
 
   document.getElementById('argumentos').innerHTML =
     'Argumentos recebidos: [' +
