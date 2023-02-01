@@ -1,5 +1,5 @@
 function parametros() {
-  var c = document.getElementById('c').value
+  var c = document.getElementById('task3').value
   var v = document.getElementById('v').value
 
   var obj = { [c]: v }

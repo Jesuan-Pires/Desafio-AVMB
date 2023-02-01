@@ -1,12 +1,100 @@
-.personagem {
-    width: 300px;
-    border-bottom-style: solid;
-    border-top-left-radius: n16px;
-    border-top-right-radius: 16px;
+body {
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    height: 100%;
 }
 
-.flex{
-display: flex;
-flex-wrap: wrap;
-justify-content: space-between;
+.box {
+    display: block;
+    background: #004f71;
+    height: 40px;
 }
+
+.logo {
+    background: white;
+    padding: 20px 50px;
+}
+
+img {
+    max-width: 150px;
+    max-height: 75px;
+    width: auto;
+    height: auto;
+}
+
+.descricao-principal, h1 {
+    font-size: 30px;
+    text-align: center;
+    color: rgb(75, 75, 75);
+}
+
+.descricao-principal, h2 {
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.descricao-principal, p {
+    font-size: 20px;
+    padding-top: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 20px;
+    text-align: justify;
+}
+
+ul {
+    display: block;
+}
+
+.btn-link {
+        margin: 0 auto;
+        margin-bottom: 10px;
+        max-width: 40%;
+        text-align: center;
+        width: auto;
+        padding: 10px;
+        background: rgb(255, 134, 13);
+        font-weight: bold;
+        font-size: 18px;
+        border: none;
+        border-radius: 5px;
+        transition: 1s all;
+        cursor: pointer;
+}
+
+.btn-link, a {
+    text-decoration: none;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.btn-link:hover {
+    background: rgb(255, 102, 25);
+    transform: scale(1.2);
+}
+
+footer {
+    margin-top: 74px;
+    background: #004f71;
+    height: 93px;
+}
+
+.formulario {
+    padding-left: 245px;
+    font-size: 20px;
+    color:rgb(255, 134, 13);
+}
+
+.input-padrao {
+    display: inline;
+    width: 110px;
+    left: auto;
+    width: 50px;
+}
+
+.btn-2 {
+    
+}
+

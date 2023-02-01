@@ -1,47 +1,45 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Fron-end</title>
+        <script src="scripts/task1.js"></script>
+        <script src="scripts/task2.js"></script>
+        <script src="scripts/task3.js"></script>
+    </head>
+    <body>
+        <div classe-principal>
 
-<head>
-    <meta charset="utf-8">
-    <title>Fron-end</title>
-</head>
+            <h3>Task 1 - Pares e ímpares:</h3>            
+            <form>
+                <label for="task1">Qual a quantidade de números a ser gerada?</label>
+                <input type="number" id="task1"><br><br>
+            </form>
+            <button onclick="gerarNumeros()">Enviar </button>
+            <p id="argumentos"></p>
+            <p id="contador"></p>
 
-<body>
+            <h3>Task 2 - Palíndromo:</h3>
+            <form>
+                <label for="task2">Qual a palavra a ser verificada?</label>
+                <input type="text" id="task2"> <br><br>
+            </form>
+            <button onclick="palindromo()">Enviar </button>
+            <p id="palavra"></p>
 
-    <h3>Task #1 - Pares e ímpares:</h3>
-    <script src="scripts/task1.js"></script>
-    <form>
-        <p>Qual a quantidade de números a ser gerada?</p>
-        <input type="number" id="n" name="n"> <br><br>
-    </form>
-    <button onclick="gerarNumeros()">Enviar </button>
-    <p id="argumentos">Argumentos recebidos:</p>
-    <p id="contador">Quantidade de números impares: </p>
+            <h3>Task 3 - Chaves e Valores:</h3>
+            <form>
+                <label for="task3">Chave: </label>
+                <input type="text" id="task3"><br>
+                <label for="task3">Valor: </label>
+                <input type="number" id="v"><br><br>
+            </form>
+            <button onclick="parametros()">Enviar </button>
+            <p id="chaveValor"></p>
 
-    <h3>Task #2 - Palíndromo:</h3>
-    <script src="scripts/task2.js"></script>
-    <p>Qual a palavra a ser verificada?</p>
-    <form>
-        <input type="text" id="a" name="a"> <br><br>
-    </form>
-    <button onclick="palindromo()">Enviar </button>
-    <p id="palavra"></p>
-    <p id="retorno"></p>
+            <h3>Task 4 - Marvel API:</h3>
+            <a href="listaHerois.html">Clique aqui para acessar a lista de Herós da Marvel!</a>
 
-    <h3>Task #3 - Chaves e Valores:</h3>
-    <script src="scripts/task3.js"></script>
-    <form>
-        <p>Chave: </p>
-        <input type="text" id="c" name="c"><br>
-        <p>Valor: </p>
-        <input type="number" id="v" name="v"><br><br>
-    </form>
-    <button onclick="parametros()">Enviar </button>
-    <p id="chaveValor"></p>
-
-    <h3>Task #4 - Marvel API:</h3>
-    <a href="listaHerois.html">Clique aqui para acessar a lista de Herós da Marvel!</a>
-    
-</body>
-
+        </div>
+    </body>
 </html>

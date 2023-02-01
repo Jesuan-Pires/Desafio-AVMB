@@ -1,5 +1,5 @@
 function gerarNumeros() {
-  var n = document.getElementById('n').value
+  var n = document.getElementById('task1').value
   console.log(n)
   var gerador = []
   var cont = 0

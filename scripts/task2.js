@@ -4,7 +4,7 @@ function boolToString(bool) {
 
 function palindromo() {
   var ehPalindromo = true
-  var a = ([] = document.getElementById('a').value)
+  var a = ([] = document.getElementById('task2').value)
   console.log('Palavra: ' + a)
   tam = a.length
   aux = []
@@ -23,8 +23,7 @@ function palindromo() {
   }
   console.log('Retorno: ' + ehPalindromo)
 
-  document.getElementById(
-    'palavra',
-    'retorno'
-  ).innerHTML = `A palavra ${a}${boolToString(ehPalindromo)}`
+  document.getElementById('palavra').innerHTML = `A palavra ${a}${boolToString(
+    ehPalindromo
+  )}`
 }
