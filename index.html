@@ -2,44 +2,43 @@
 <html lang="pt-br">
     <head>
         <meta charset="UTF-8">
-        <title>Fron-end</title>
-        <script src="scripts/task1.js"></script>
-        <script src="scripts/task2.js"></script>
-        <script src="scripts/task3.js"></script>
+        <title>Desafio-AVMB</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
     </head>
     <body>
-        <div classe-principal>
+        <header>
+            <div></div>
+            <h1 class="logo"><img src="images/logo-avmb.jpg"></h1>
+        </header>
+        <main>
+            <section class="descricao-principal">
+                <h2><bold>Front-End</bold></h2>
+                <h3>Proposta: Desafio para testar lógica e conhecimento em Javascript.</h3>
+            </section>
 
-            <h3>Task 1 - Pares e ímpares:</h3>            
-            <form>
-                <label for="task1">Qual a quantidade de números a ser gerada?</label>
-                <input type="number" id="task1"><br><br>
-            </form>
-            <button onclick="gerarNumeros()">Enviar </button>
-            <p id="argumentos"></p>
-            <p id="contador"></p>
+            <ul>
+                <li class="btn-link">
+                    <a href="task_1.html">Task 1</a>
+                </li>
+                <li class="btn-link">
+                    <a href="task_2.html">Task 2</a>
+                </li>
+                <li class="btn-link">
+                    <a href="task_3.html">Task 3</a>
+                </li>
+                <li class="btn-link">
+                    <a href="task_4.html">Task 4</a>
+                </li>
+                <li class="btn-link">
+                    <a href="https://avmb.com.br">Task 5</a>
+                </li>
+            </ul>           
+        </main>        
+        <footer>
+            
+        </footer>        
 
-            <h3>Task 2 - Palíndromo:</h3>
-            <form>
-                <label for="task2">Qual a palavra a ser verificada?</label>
-                <input type="text" id="task2"> <br><br>
-            </form>
-            <button onclick="palindromo()">Enviar </button>
-            <p id="palavra"></p>
-
-            <h3>Task 3 - Chaves e Valores:</h3>
-            <form>
-                <label for="task3">Chave: </label>
-                <input type="text" id="task3"><br>
-                <label for="task3">Valor: </label>
-                <input type="number" id="v"><br><br>
-            </form>
-            <button onclick="parametros()">Enviar </button>
-            <p id="chaveValor"></p>
-
-            <h3>Task 4 - Marvel API:</h3>
-            <a href="listaHerois.html">Clique aqui para acessar a lista de Herós da Marvel!</a>
-
-        </div>
     </body>
 </html>

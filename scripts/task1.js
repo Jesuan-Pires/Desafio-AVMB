@@ -12,11 +12,9 @@ function gerarNumeros() {
   console.log('N: [' + gerador + ']')
   console.log('Retorno: ' + cont)
 
-  document.getElementById('argumentos').innerHTML =
-    'Argumentos recebidos: [' +
-    gerador.map((item) => `${item}`).join(', ') +
-    ']'
+  document.getElementById('argumentos').innerHTML = gerador
+    .map((item) => `${item}`)
+    .join(', ')
 
-  document.getElementById('contador').innerHTML =
-    'Quantidade de números impares: ' + cont
+  document.getElementById('contador').innerHTML = '' + cont
 }

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Task-1</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="task.css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+        <script src="scripts/task3.js"></script>
+    </head>
+    <body>
+         <header>
+            <div class="box"></div>            
+            <h1><img class="logo" src="images/logo-avmb.jpg"><a class="home" href="index.html"><img class="logo2" src="images/home.png">Home</a></h1>
+        </header>
+
+        <main>         
+
+            <section>
+                <h2><bold>Task 3 - Chaves e Valores</bold></h2> 
+                <p class="p2">Deve ser criada uma função javascript que receba dois argumentos, C (String) e V.
+                    A função deve retornar um objeto em formato JSON com esses argumentos, a variável C
+                    será a chave e a variável V será o valor desta chave.
+                </p>
+            </section>
+            
+            <form>
+                <label for="task3">Chave: </label>
+                <input class="input-padrao" type="text" id="task3">
+                <label for="task3">Valor: </label>
+                <input class="input-padrao" type="number" id="v">
+            </form>               
+
+            <button class="btn-2" onclick="parametros()">Enviar </button>
+
+            <section class="resposta">Chave e Valor: <em id="chaveValor"></em></section>
+            
+        </main>       
+
+        <footer></footer>      
+    </body>
+</html>

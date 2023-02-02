@@ -4,37 +4,40 @@
         <meta charset="UTF-8">
         <title>Task-1</title>
         <link rel="stylesheet" href="reset.css">
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="task.css">
         <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
         <script src="scripts/task1.js"></script>
     </head>
     <body>
          <header>
-            <p class="box"></p>            
-            <img class="logo" src="images/logo-avmb.jpg">            
+            <div class="box"></div>            
+            <h1><img class="logo" src="images/logo-avmb.jpg"><a class="home" href="index.html"><img class="logo2" src="images/home.png">Home</a></h1>
         </header>
 
-        <main>           
-            <section class="descricao-principal">
-                <h1><bold>Task 1 - Pares e ímpares</bold></h1> 
-                <p>Proposta: Deve ser criada uma função javascript que receba um argumento N, que sempre será um
+        <main>         
+
+            <section>
+                <h2><bold>Task 1 - Pares e ímpares</bold></h2> 
+                <p class="p2">Proposta: Deve ser criada uma função javascript que receba um argumento N, que sempre será um
                 array de números.
                 A função deve retornar a quantidade de números ímpares dentro do array.
                 </p>
             </section>
-
-            <form class="formulario">
+            
+            <form>
                 <label for="task1">Qual a quantidade de números a ser gerada?</label>
                 <input class="input-padrao" type="number" id="task1">                
             </form>
             <button class="btn-2" onclick="gerarNumeros()">Enviar </button>
-            <p id="argumentos"></p>
-            <p id="contador"></p>
+
+            <section class="resposta">
+                <p>Argumentos recebidos: <em id="argumentos"></em></p>
+                <br></br>
+                <p>Quantidade de números ímpares: <em id="contador"></em></p>
+            </section>
             
         </main>       
 
-        <footer>
-            
-        </footer>      
+        <footer></footer>      
     </body>
 </html>
