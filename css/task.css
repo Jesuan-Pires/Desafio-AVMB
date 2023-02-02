@@ -123,3 +123,10 @@ footer {
     flex-wrap: wrap;
     justify-content: space-between;
 }
+
+.p_unico {
+    padding-top: 20px;
+    font-size: 30px;
+    text-align: center;
+    color: rgb(75, 75, 75);
+}
