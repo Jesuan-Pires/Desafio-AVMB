@@ -5,25 +5,27 @@ function boolToString(bool) {
 function palindromo() {
   var ehPalindromo = true
   var a = ([] = document.getElementById('task2').value)
-  console.log('Palavra: ' + a)
-  tam = a.length
+  var b = a.toLowerCase()
+  console.log('Palavra: ' + b)
+  tam = b.length
   aux = []
-  for (var i = 0; i < a.length; i++) {
-    aux[i] = a[tam - 1]
+
+  for (var i = 0; i < b.length; i++) {
+    aux[i] = b[tam - 1]
     tam--
   }
   aux[i] = '\0'
-  tam = a.length
+  tam = b.length
 
-  for (var i = 0; i < a.length; i++) {
-    if (a[i] !== aux[i]) {
+  for (var i = 0; i < b.length; i++) {
+    if (b[i] !== aux[i]) {
       ehPalindromo = false
       break
     }
   }
   console.log('Retorno: ' + ehPalindromo)
 
-  document.getElementById('palavra').innerHTML = `A palavra ${a}${boolToString(
-    ehPalindromo
-  )}`
+  document.getElementById(
+    'palavra'
+  ).innerHTML = `A palavra(nº) ${b}${boolToString(ehPalindromo)}`
 }

@@ -46,10 +46,10 @@ h2 {
 
 .p2 {
     font-size: 20px;
-    padding-top: 40px;
+    margin-top: 40px;
     padding-left: 10%;
     padding-right: 10%;
-    padding-bottom: 30px;
+    margin-bottom: 30px;
     text-align: justify;
 }
 
@@ -72,7 +72,9 @@ form {
 }
 
 .input-padrao {
-    
+    display: inline;
+    margin: auto;
+    width: 10%;
 }
 
 .destaque {
@@ -89,11 +91,11 @@ form {
     padding-top: 40px;
     padding-left: 10%;
     text-align: justify;
-    color: green;
+    color: #7d0065;
 }
 
 em {
-    color:red;
+    color:#fa6502;
 }
 
 footer {
@@ -107,8 +109,17 @@ footer {
     width: 100%;
 }
 
+.personagem {
+    width: 250px;
+    border-bottom-style: solid;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    padding-left: 20px;
+}
+
 .lista-herois {
     padding-top: 40px;
-    display:flex;
-    flex-flow: row wrap;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
